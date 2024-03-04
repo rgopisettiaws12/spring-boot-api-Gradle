@@ -75,3 +75,8 @@ task('doStuff', type: Copy) {
         println 'running task'
     }
 }
+
+buildScan {
+    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+    termsOfServiceAgree = 'yes'
+}
